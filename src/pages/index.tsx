@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Layout from './components/Layout';
 import Nav from './components/Nav';
 import Content from './components/Content';
+import Footer from './components/Footer';
 
 export default function Home() {
 	return (
@@ -18,6 +19,8 @@ export default function Home() {
 			<Layout>
 				<Content />
 			</Layout>
+
+			<Footer />
 		</>
 	);
 }
