@@ -1,16 +1,27 @@
 import { useRouter } from 'next/router';
+import Typewriter from 'typewriter-effect';
 
 export default function Content() {
 	const router = useRouter();
 
 	return (
 		<div className='flex flex-col text-center text-lg justify-evenly min-h-screen tracking-wide border-2 border-pink-500'>
-			<p className='p-12 text-xl font-bold'>
-				My name is <span className='text-red-500 font-bold'>Ford Pickert</span>{' '}
-				and I am a full-stack sofware engineer!
-			</p>
+			<div className='text-green-500 p-24'>
+				<Typewriter
+					options={{
+						strings: [
+							'My name is Ford Pickert and I am a full-stack sofware engineer!',
+						],
+						autoStart: true,
+						delay: 100,
+						// @ts-ignore
+						pauseFor: 4000,
+						loop: true,
+					}}
+				/>
+			</div>
 
-			<p className='p-12 px-24 bg-pink-400'>
+			<p className='p-12 px-24 bg-slate-400'>
 				I have been working as a software engineer for the past two years now,
 				focusing primarily on improving my skills with{' '}
 				<span className='text-blue-500 font-bold'>TypeScript</span> and{' '}
@@ -30,7 +41,7 @@ export default function Content() {
 				</button>
 			</p>
 
-			<p className='p-12 px-24 bg-pink-200'>
+			<p className='p-12 px-24 bg-slate-500'>
 				When I am not coding, I greatly enjoy reading and writing, which are two
 				things that I have done extensively for my entire life. I have read tons
 				of books ranging from classical history to modern spy thrillers and
@@ -46,7 +57,7 @@ export default function Content() {
 				</button>
 			</p>
 
-			<p className='p-12 px-24 bg-pink-400'>
+			<p className='p-12 px-24 bg-slate-400'>
 				Below you can find my resume, GitHub profile as well as numerous ways of
 				reaching me - please reach out if you would like to discuss my past, my
 				future, or any potential job openings that may be the right fit!
