@@ -3,9 +3,5 @@ type LayoutProps = {
 };
 
 export default function Layout(props: LayoutProps) {
-	return (
-		<div className='border-4 border-red-500 min-h-screen mx-auto bg-black'>
-			{props.children}
-		</div>
-	);
+	return <div className='min-h-screen mx-auto bg-black'>{props.children}</div>;
 }

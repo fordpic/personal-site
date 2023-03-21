@@ -5,12 +5,13 @@ export default function Content() {
 	const router = useRouter();
 
 	return (
-		<div className='flex flex-col text-center text-lg justify-evenly min-h-screen tracking-wide border-2 border-pink-500'>
+		<div className='flex flex-col text-center text-lg justify-evenly min-h-screen tracking-wide'>
 			<div className='text-green-500 p-24'>
 				<Typewriter
 					options={{
 						strings: [
-							'My name is Ford Pickert and I am a full-stack sofware engineer!',
+							'My name is Ford Pickert and I am a full stack sofware engineer!',
+							'Learn more about me below!',
 						],
 						autoStart: true,
 						delay: 100,
@@ -21,11 +22,11 @@ export default function Content() {
 				/>
 			</div>
 
-			<p className='p-12 px-24 bg-slate-400'>
+			<p className='p-12 px-48 bg-slate-400 border-b border-red-500'>
 				I have been working as a software engineer for the past two years now,
 				focusing primarily on improving my skills with{' '}
-				<span className='text-blue-500 font-bold'>TypeScript</span> and{' '}
-				<span className='text-blue-500 font-bold'>Python</span> as well as
+				<span className='text-red-500 font-bold'>TypeScript</span> and{' '}
+				<span className='text-red-500 font-bold'>Python</span> as well as
 				learning new tools and libraries that I find interesting.
 				<br />
 				<br />
@@ -36,12 +37,12 @@ export default function Content() {
 				<br />
 				<button
 					onClick={() => router.push(`/Projects`)}
-					className='border border-red-500 bg-red-500 hover:bg-red-300 rounded-xl h-16 w-48 mt-6 justify-center'>
-					See All Projects
+					className='bg-red-500 rounded-xl h-16 w-48 mt-6 justify-center hoverEffect'>
+					All Projects
 				</button>
 			</p>
 
-			<p className='p-12 px-24 bg-slate-500'>
+			<p className='p-12 px-48 bg-slate-500 border-b border-red-500'>
 				When I am not coding, I greatly enjoy reading and writing, which are two
 				things that I have done extensively for my entire life. I have read tons
 				of books ranging from classical history to modern spy thrillers and
@@ -52,21 +53,21 @@ export default function Content() {
 				<br />
 				<button
 					onClick={() => router.push(`/Books`)}
-					className='border border-red-500 bg-red-500 hover:bg-red-300 rounded-xl h-16 w-48 mt-6 justify-center'>
-					See Reading List
+					className='bg-red-500 rounded-xl h-16 w-48 mt-6 justify-center hoverEffect'>
+					Reading List
 				</button>
 			</p>
 
-			<p className='p-12 px-24 bg-slate-400'>
+			<p className='p-12 px-48 bg-slate-400'>
 				Below you can find my resume, GitHub profile as well as numerous ways of
 				reaching me - please reach out if you would like to discuss my past, my
 				future, or any potential job openings that may be the right fit!
 				<br />
-				<button className='border border-red-500 bg-red-500 hover:bg-red-300 rounded-xl h-16 w-48 mt-6 mr-1 justify-center'>
-					See Resume
+				<button className='bg-red-500 rounded-xl h-16 w-48 mt-6 mr-1 justify-center hoverEffect'>
+					Resume
 				</button>
-				<button className='border border-red-500 bg-red-500 hover:bg-red-300 rounded-xl h-16 w-48 mt-6 ml-1 justify-center'>
-					See GitHub
+				<button className='bg-red-500 rounded-xl h-16 w-48 mt-6 ml-1 justify-center hoverEffect'>
+					GitHub
 				</button>
 			</p>
 		</div>

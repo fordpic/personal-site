@@ -1,8 +1,8 @@
-import { Linkedin, GitHub, Mail } from 'react-feather';
+import { Linkedin, GitHub, Mail, Twitter } from 'react-feather';
 
 export default function Footer() {
 	return (
-		<footer className='text-center justify-center space-x-4 py-2 flex bg-slate-600'>
+		<footer className='text-center justify-center space-x-4 py-2 flex bg-slate-600 border-t border-red-500'>
 			{/* GitHub */}
 			<div>
 				<a
@@ -30,6 +30,16 @@ export default function Footer() {
 					target='_blank'
 					className='hover:text-red-500'>
 					<Linkedin size={20} />
+				</a>
+			</div>
+
+			{/* Twitter */}
+			<div>
+				<a
+					href='https://twitter.com/ford_codes'
+					target='_blank'
+					className='hover:text-red-500'>
+					<Twitter size={20} />
 				</a>
 			</div>
 		</footer>
