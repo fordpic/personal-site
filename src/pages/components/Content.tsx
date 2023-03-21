@@ -27,7 +27,7 @@ export default function Content() {
 				focusing primarily on improving my skills with{' '}
 				<span className='text-red-500 font-bold'>TypeScript</span> and{' '}
 				<span className='text-red-500 font-bold'>Python</span> as well as
-				learning new tools and libraries that I find interesting.
+				learning new tools, libraries and languages that I find interesting.
 				<br />
 				<br />
 				Ideally, I would love to find a job where I am constantly challenged and
