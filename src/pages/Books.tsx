@@ -2,19 +2,7 @@ import Layout from './components/Layout';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import BookCard from './components/BookCard';
-
-const bookList = [
-	{
-		title: 'Fake Book',
-		author: 'Fake Author',
-		link: 'fakelink',
-	},
-	{
-		title: 'Anotha Fake Book',
-		author: 'Anotha Fake Author',
-		link: 'anothafakelink',
-	},
-];
+import { bookList } from '@/bookList';
 
 export default function Books() {
 	return (
