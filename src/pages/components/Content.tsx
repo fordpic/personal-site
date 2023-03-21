@@ -63,12 +63,16 @@ export default function Content() {
 				reaching me - please reach out if you would like to discuss my past, my
 				future, or any potential job openings that may be the right fit!
 				<br />
-				<button className='bg-red-500 rounded-xl h-16 w-48 mt-6 mr-1 justify-center hoverEffect'>
+				<button
+					onClick={() => router.push(`/Resume`)}
+					className='bg-red-500 rounded-xl h-16 w-48 mt-6 mr-1 justify-center hoverEffect'>
 					Resume
 				</button>
-				<button className='bg-red-500 rounded-xl h-16 w-48 mt-6 ml-1 justify-center hoverEffect'>
-					GitHub
-				</button>
+				<a href='https://github.com/fordpic' target='_blank'>
+					<button className='bg-red-500 rounded-xl h-16 w-48 mt-6 ml-1 justify-center hoverEffect'>
+						GitHub
+					</button>
+				</a>
 			</p>
 		</div>
 	);
