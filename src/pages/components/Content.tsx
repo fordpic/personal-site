@@ -63,12 +63,12 @@ export default function Content() {
 				reaching me - please reach out if you would like to discuss my past, my
 				future, or any potential job openings that may be the right fit!
 				<br />
-				<button
-					onClick={() => router.push(`/Resume`)}
-					className='bg-red-500 rounded-xl h-16 w-48 mt-6 mr-1 justify-center hoverEffect'>
-					Resume
-				</button>
-				<a href='https://github.com/fordpic' target='_blank'>
+				<a href='/resume.pdf' target='_blank' rel='noreferrer'>
+					<button className='bg-red-500 rounded-xl h-16 w-48 mt-6 mr-1 justify-center hoverEffect'>
+						Resume
+					</button>
+				</a>
+				<a href='https://github.com/fordpic' target='_blank' rel='noreferrer'>
 					<button className='bg-red-500 rounded-xl h-16 w-48 mt-6 ml-1 justify-center hoverEffect'>
 						GitHub
 					</button>
