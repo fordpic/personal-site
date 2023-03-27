@@ -6,8 +6,8 @@ export default function HomeButton() {
 	return (
 		<button
 			onClick={() => router.push(`/`)}
-			className='bg-red-500 rounded-xl h-16 w-48 mt-6 flex justify-center items-center hoverEffect'>
-			<ArrowLeft className='h-5 mr-2' /> Back to home
+			className='bg-red-500 rounded-xl h-16 w-48 mb-4 flex justify-center items-center hoverEffect'>
+			<ArrowLeft className='h-5 mr-2' /> Back To Home
 		</button>
 	);
 }
