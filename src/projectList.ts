@@ -1,16 +1,10 @@
 export const projectList = [
 	{
-		title: 'Example Project',
-		tech: ['TypeScript', 'NextJS', 'Tailwind', 'Firebase'],
+		title: 'CryptoWatch',
+		tech: ['TypeScript', 'NextJS', 'Tailwind', 'Recharts', 'SWR'],
 		summary:
-			'A small summary written for an example project that does not exist yet. Hard to say how long this summary should be for now, but guess we will just wing it on this one!',
-		link: 'https://github.com/fordpic',
-	},
-	{
-		title: '',
-		tech: [],
-		summary: '',
-		link: '',
+			'CryptoWatch is a dashboard for crypto enthusiasts to check out the most important metrics for all of the most  popular tokens. Includes token-specific data over multiple timeframes and a price chart for each asset, powered by Recharts & the CoinGecko API.',
+		link: 'https://github.com/fordpic/crypto-dashboard',
 	},
 	{
 		title: '',
