@@ -7,10 +7,11 @@ export const projectList = [
 		link: 'https://github.com/fordpic/crypto-dashboard',
 	},
 	{
-		title: '',
-		tech: [],
-		summary: '',
-		link: '',
+		title: 'Contact Grabber',
+		tech: ['Python', 'AWS Amplify', 'AWS Lambda', 'BeautifulSoup'],
+		summary:
+			'This was a project worked on by myself and a fellow cohort member when graduating from our immersive bootcamp. It is a web scraper built with Python & BeautifulSoup that scrapes data from Indeed based on inputs given from the user. The scraper would execute via our Lambda function and scrape, parse and feed the information to our frontend. I learned a lot while building this project; all summarized learnings can be found in the ReadMe file.',
+		link: 'https://github.com/contact-grabber/grabber-lambda',
 	},
 	{
 		title: '',
