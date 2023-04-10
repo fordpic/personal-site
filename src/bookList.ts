@@ -1,42 +1,62 @@
 export const bookList = [
 	{
-		title: 'Fake Book',
-		author: 'Fake Author',
+		title: 'Atomic Habits',
+		author: 'James Clear',
 		link: 'fakelink',
 	},
 	{
-		title: 'Anotha Fake Book',
-		author: 'Anotha Fake Author',
+		title: 'Devil Take The Hindmost',
+		author: 'Edward Chancellor',
 		link: 'anothafakelink',
 	},
 	{
-		title: 'Fake Book',
-		author: 'Fake Author',
-		link: 'fakelink',
-	},
-	{
-		title: 'Anotha Fake Book',
-		author: 'Anotha Fake Author',
+		title: 'Fortunes Formula',
+		author: 'William Poundstone',
 		link: 'anothafakelink',
 	},
 	{
-		title: 'Fake Book',
-		author: 'Fake Author',
+		title: 'Infinite Powers',
+		author: 'Steven Strogratz',
 		link: 'fakelink',
 	},
 	{
-		title: 'Anotha Fake Book',
-		author: 'Anotha Fake Author',
+		title: 'Life 3.0',
+		author: 'Max Tegmark',
 		link: 'anothafakelink',
 	},
 	{
-		title: 'Fake Book',
-		author: 'Fake Author',
+		title: 'Mastery',
+		author: 'Robert Greene',
 		link: 'fakelink',
 	},
 	{
-		title: 'Anotha Fake Book',
-		author: 'Anotha Fake Author',
+		title: 'Riches Among The Ruins',
+		author: 'Robert P. Smith',
+		link: 'anothafakelink',
+	},
+	{
+		title: 'The Art Of Strategy',
+		author: 'Avinash Dixit & Barry Nalebuff',
+		link: 'fakelink',
+	},
+	{
+		title: 'The Art Of War',
+		author: 'Sun Tzu',
+		link: 'anothafakelink',
+	},
+	{
+		title: 'The Obstacle Is The Way',
+		author: 'Ryan Holliday',
+		link: 'anothafakelink',
+	},
+	{
+		title: 'The Signal & The Noise',
+		author: 'Nate Silver',
+		link: 'anothafakelink',
+	},
+	{
+		title: 'The Sovereign Individual',
+		author: 'James Dale Davidson & William Rees-Mogg',
 		link: 'anothafakelink',
 	},
 ];
