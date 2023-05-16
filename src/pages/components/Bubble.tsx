@@ -29,7 +29,7 @@ export default function Bubble(props: BubbleProps) {
 	}, []);
 
 	return (
-		<div className={`w-24 rounded-xl ${bgColor} text-center`}>
+		<div className={`w-32 rounded-xl ${bgColor} text-center`}>
 			{props.children}
 		</div>
 	);
