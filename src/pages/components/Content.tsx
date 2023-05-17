@@ -10,7 +10,7 @@ export default function Content() {
 				<Typewriter
 					options={{
 						strings: [
-							'My name is Ford Pickert and I am a full stack sofware engineer!',
+							'My name is Ford Pickert and I am a full stack software engineer!',
 							'Learn more about me below!',
 						],
 						autoStart: true,
