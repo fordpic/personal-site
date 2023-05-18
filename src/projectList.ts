@@ -21,6 +21,23 @@ export const projectList = [
 		link: 'https://github.com/contact-grabber/grabber-lambda',
 	},
 	{
+		title: 'fSocial',
+		tech: [
+			'NextJS',
+			'TypeScript',
+			'Express',
+			'PostgreSQL',
+			'Prisma',
+			'Postman',
+			'Vercel',
+			'ElephantSQL',
+			'JWT',
+		],
+		summary:
+			'fSocial is a full stack social app that allows friends and family to interact with each other. Users must first register and sign in before they can do much, but once logged in they can view, create and comment on as much content as they desire. The frontend was developed with NextJS, while the backend server was developed with Express and utilizes Prisma to query the Postgres database hosted on ElephantSQL. Both the frontend and backend repositories are available to view on Github.',
+		link: 'https://github.com/fordpic/fSocial-frontend',
+	},
+	{
 		title: 'deepDive',
 		tech: ['React', 'Express', 'MongoDB', 'Mongoose', 'Postman', 'Heroku'],
 		summary:
