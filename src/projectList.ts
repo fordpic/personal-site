@@ -38,6 +38,13 @@ export const projectList = [
 		link: 'https://github.com/fordpic/fSocial-frontend',
 	},
 	{
+		title: 'The Forps NFT Collection',
+		tech: ['NextJS', 'Solidity', 'Hardhat', 'Ethers', 'Quicknode', 'Vercel'],
+		summary:
+			'The Forps NFT Collection is a unique collection of NFTs that are (literally) my face. After working in Web3 for a while, I wanted to jump back into Solidity and all of its tooling to build something simple yet neat. To mint a Forps NFT, users must first connect their wallet to the Goerli network and get their wallet address whitelisted on the whitelist site (can be found in the Github repo). Then, they simply must visit the Forps collection site, connect their whitelisted wallet, and select Mint to get their own personal, digital version of....me :)',
+		link: 'https://github.com/fordpic/forp-collection',
+	},
+	{
 		title: 'deepDive',
 		tech: ['React', 'Express', 'MongoDB', 'Mongoose', 'Postman', 'Heroku'],
 		summary:
