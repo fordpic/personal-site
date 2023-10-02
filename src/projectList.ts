@@ -51,4 +51,11 @@ export const projectList = [
 			'This was a project that I worked on with fellow cohorts in my immersive bootcamp. It is a full stack music blog app, where users can sign up, login, upload their favorite albums and have a healthy discourse around them, all in once place! Both the frontend and backend repositories are available to view on Github.',
 		link: 'https://github.com/team-caffeine-dreams/backend',
 	},
+	{
+		title: 'ETH Unit Calculator',
+		tech: ['NextJS', 'TypeScript', 'Tailwind', 'AWS Amplify', 'React-Feather'],
+		summary:
+			'This is a calculator for converting between the various units of Ethereum. Simply type the amount of the unit you would like converted into the appropriate input box, and the site will automatically convert the amount for you for every single unit possible.',
+		link: 'https://github.com/fordpic/eth-calc',
+	},
 ];
